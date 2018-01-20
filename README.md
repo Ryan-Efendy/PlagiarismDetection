@@ -38,7 +38,7 @@ Percentage Plagiarized: 50.0
 ```
 
 ```
-$ python run.py --files tests/test1/file1.txt tests/test1/file2.txt --synonyms tests/test1/syns.txt --tuple_size 3
+$ python main.py --files tests/test1/file1.txt tests/test1/file2.txt --synonyms tests/test1/syns.txt --tuple_size 3
 
 File Path 1: tests/test1/file1.txt
 File Path 2: tests/test1/file2.txt
@@ -49,10 +49,10 @@ Percentage Plagiarized: 100.0
 ```
 
 ```
-$ python run.py --files tests/test1/file1.txt  --synonyms tests/test1/syns.txt
+$ python main.py --files tests/test1/file1.txt  --synonyms tests/test1/syns.txt
 
 usage: run.py [-h] -f FILES FILES -s SYNONYMS [-t TUPLE_SIZE]
-run.py: error: argument -f/--files: expected 2 argument(s)
+main.py: error: argument -f/--files: expected 2 argument(s)
 ```
 
 ### Algorithms & Data Structures
